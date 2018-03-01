@@ -1,0 +1,496 @@
+@charset "utf-8";
+/* CSS Document */
+
+@font-face {
+	font-family:museo;
+	src: url(../fonts/Museo.otf);
+}
+
+#top {
+	background: #602e6d;
+	background: -moz-linear-gradient(left, #602e6d 0%, #d12049 100%);
+	background: -webkit-linear-gradient(left, #602e6d 0%,#d12049 100%);
+	background: linear-gradient(to right, #602e6d 0%,#d12049 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#602e6d', endColorstr='#d12049',GradientType=1 );
+}
+
+
+
+
+/*NAVBAR*/
+
+@media only screen and (max-width: 480px) {
+    .navbar-default .navbar-brand{
+	margin-right:0;
+	
+	}
+	.navbar-default .navbar-brand img {
+		height: 35px;
+	}
+	
+	.toptitle {
+		font-size:2px;
+	}
+	
+	#bennedvan {
+		width: 0;
+		height: 0;
+	}
+	
+	.sectiondefault {
+	padding-left:0;
+	padding-right:0;
+	text-align: justify;
+	font-family: montserrat;
+	}
+	
+	.oktatok {
+		background-image: url(../img/sky-night-stars.jpg);
+	}
+		
+}
+
+
+.oktatok {
+	background-image: url(../img/oktatok.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+	max-width: 770px;
+	height: 450px;
+	width: 100%;
+	max-height: 450px;
+}
+
+.navbar {
+     border-bottom: 1px solid transparent;
+     border-radius: 0px;
+}
+
+.navbar-default {
+     background-color: transparent;
+     border-color: transparent;
+}
+.navbar-default .navbar-brand{
+	margin-right: 140px;
+}
+
+.navbar-default .navbar-brand,
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus ,
+.navbar-default .navbar-nav > li > a {
+     color: #FFF;
+	font-size:18px;
+	line-height:50px;
+	font-weight:normal;
+	font-family: museo;
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+     color: #FFF;
+     background-color: transparent;
+}
+
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: transparent;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+}
+
+
+
+
+
+
+
+/*SZÁMOZOTT LISTA*/
+.lista1 {
+	font-size:15px;
+	font-family: montserrat;
+}
+
+.szamok {
+	color:#8e3d8c;
+	font-weight: bold;
+}
+
+.elsolista {
+	margin-bottom:75px;
+}
+
+
+
+
+
+
+.sectiondefault {
+	padding-left:0;
+	padding-right:0;
+	text-align: justify;
+	font-family: montserrat;
+}
+
+.sectionbold {
+	padding-left:0;
+	padding-right:0;
+	text-align: justify;
+	font-weight:bold;
+	font-family: montserrat;
+}
+
+
+
+.sectionwhite {
+	color:white;
+	font-family: montserrat;
+	padding-left: 0;
+	padding-right: 0;
+	text-align:justify;
+}
+
+
+
+
+
+
+.toptitle{
+	font-family: 'museo', sans-serif;
+	color: #FFFFFF;
+	font-size:60px;
+	text-align: center;
+	margin-bottom:70px;
+	text-align: center;
+}
+
+.photo1{
+	background-image: url(../img/photo01.png);
+	background-position: top;
+	background-repeat: no-repeat;
+	width: 370px;
+	height: 350px;
+	padding: 0;
+	margin: 0;
+}
+#bennedvan {
+	margin-bottom: 100px;
+	
+}
+
+.sectiontitle{
+	text-align: center;
+	color:#8e3d8c;
+	font-size:40px;
+	font-family: 'museo', sans-serif;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.sectiontitlewhite{
+	text-align: center;
+	color:white;
+	font-size:40px;
+	font-family: 'museo', sans-serif;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.kep {
+	background-image:url(../img/photo01.png);
+	background-position: top;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+.kep2 {
+	background-image:url(../img/photo02.png);
+	background-position: top;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+.sectioncontent{
+	text-align: justify;
+	font-family: 'Montserrat', sans-serif;
+	font-weight:bold;
+}
+
+.sectionbottom{
+	font-family: 'montserrat', sans-serif;
+	font-style: italic;
+	color: #8B8B8B;
+}
+
+
+/*A NAP TÉMÁJA
+*/
+
+.temacontent {
+	text-align: justify;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 300;
+}
+
+.temabold {
+	text-align: justify;
+	font-family: 'Montserrat', sans-serif;
+	font-size:16px;
+	font-weight: bold;
+}
+
+.temalista {
+	margin-left: 0;
+	padding-left: 0;
+	list-style: none;
+	font-family: montserrat;
+}
+
+.temalista li:before {
+    content: "•";
+    padding-right: 8px;
+    color: #8e3d8c;
+	font-size:20px;
+}
+
+.forma {
+	margin-top:50px;
+	max-width: 472px;
+	width: 100%;
+	max-height: 268px;
+	height: 100%;
+	background-color: white;
+	/*box-shadow: 1px 1px 10px 1px #6c626c;*/
+	box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.4);
+	margin-bottom: 50px;
+	border-radius: 10px;
+}
+
+
+.button1{
+	max-width:410px;
+	width: 100%;
+	line-height: 45px;
+	background-color: #8e3d8c;
+	color:white;
+	text-align: center;
+	border-radius: 5px;
+	font-weight:bold;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 10px;
+	font-size:20px;
+	font-family: 'montserrat';
+}
+
+.oktatokneve{
+	margin-bottom: 20px;
+	background-image: url(../img/oktatok2.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	max-width: 770px;
+	width: 100%;
+	height: 545px;
+		
+}
+
+
+.forma a {
+	color:white;
+	text-decoration: none;
+}
+
+.forma a:hover{
+	color:white;
+	text-decoration: none;
+}
+
+.helyszintop {
+	background: #cf2640;
+	background: -webkit-linear-gradient(left, #cf2640 0%, #dad830 100%);
+	background: -o-linear-gradient(left, #cf2640 0%, #dad830 100%);
+	background: linear-gradient(to right, #cf2640 0%, #dad830 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cf2640', endColorstr='#dad830',GradientType=1 );
+	height:5px;
+}
+
+
+
+.paratitle {
+	font-family: museo;
+	font-size: 60px;
+	text-align: center;
+	color: white;
+	margin-top:150px;
+	margin-bottom:50px;
+}
+
+.paratext{
+	color:white;
+	font-size:20px;
+	text-align: center;
+	font-family: montserrat;
+	margin-bottom:150px;
+}
+
+#helyszin {
+	background-image:url(../img/helyszin.jpg);
+	background-attachment: fixed;
+	background-position: center;
+	background-size:cover;
+	background-repeat: no-repeat;
+	height:100%;
+}
+
+
+/*JEGYEK*/
+.jegyek{
+	margin-top:120px;
+}
+
+.early {
+	border: 1px solid grey; 
+	max-width:350px;
+	width: 100%;
+}
+
+.normal {
+	border: 1px solid grey; 
+	max-width:350px;
+	width: 100%;
+}
+
+.jegyar {
+	color:#8e3d8c; 
+	font-family: museo; 
+	font-size:20px; 
+	font-weight:bold; 
+	padding-top:10px; 
+	padding-left: 15px;
+}
+
+.jegyido{
+	font-family: museo; 
+	font-size:15px; 
+	font-weight:bold; 
+	padding-top:0px; 
+	padding-left: 15px; 
+	padding-bottom:10px;
+}
+
+.jegyjobb{
+	border-left: 1px dashed grey; 
+	width: 40px;
+}
+
+
+
+
+/*JELENTKEZEK ALSÓ FELÜLET*/
+
+.forma2 {
+	max-width: 350px;
+	width: 100%;
+	height: auto;
+	background-color: white;
+	box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.4);
+	margin-bottom: 50px;
+	border-radius: 10px;
+}
+
+.jelentkezesi {
+	margin-left:20px;
+}
+
+.jelentkezestitle{
+	font-weight: bold; 
+	font-size:30px; 
+	margin-left: 20px; 
+	padding-top:15px; 
+	font-family: 'museo';
+}
+
+.jelentkezescontent {
+	margin-left: 20px; 
+	font-size:20px; 
+	font-family:'museo'; 
+}
+
+
+.jelentkezescontent2 {
+	margin-left: 20px; 
+	font-family:'montserrat'; 
+	font-size:14px; 
+	margin-bottom:25px;
+	font-style: italic;
+	color:grey;
+}
+
+.input-top{
+	margin-bottom: 0;
+	padding-bottom: 0;
+	font-size:15px;
+}
+
+.input-mezo {
+	max-width: 310px;
+	width: 100%;
+	height:40px;
+	border-radius: 5px;
+	border: 1px solid grey;
+	margin-bottom:20px;
+}
+
+.jelentkezes-checkbox {
+	height: 20px;
+	width: 20px;
+	margin-right: 5px;
+	background-color: white;
+	vertical-align: middle;
+}
+
+.jelentkezes-checkbox-szoveg{
+	line-height: 30px;
+	margin-top: auto;
+	margin-bottom: auto;
+	font-size:14px;
+	font-family: 'montserrat';
+}
+
+.jelentkezes-checkbox-szoveg a {
+	color:black;
+	text-decoration: underline;
+}
+
+.jelentkezes-checkbox-szoveg a:hover {
+	color:#8e3d8c;
+}
+
+.button2{
+	max-width:325px;
+	width: 100%;
+	line-height: 45px;
+	background-color: #8e3d8c;
+	color:white;
+	text-align: center;
+	border-radius: 5px;
+	font-weight:bold;
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	font-size:16px;
+	font-family: 'montserrat';
+}
+
+.jelentkezesbottom {
+	text-align: center;
+	font-size: 15px;
+	margin-top: 10px;
+	padding-bottom: 20px;
+}
